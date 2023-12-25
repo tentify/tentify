@@ -1,0 +1,35 @@
+{
+  "name": "tentify",
+  "version": "0.1.0",
+  "description": "A tool to apply templates to any file.",
+  "main": "src/index.js",
+  "bin": {
+    "tentify": "./bin/tentify"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentify/tentify.git"
+  },
+  "keywords": [
+    "templating",
+    "build-tool",
+    "static-site-generator"
+  ],
+  "author": "Stuart Johnson <stuartjohnsoncams+tentify@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentify/tentify/issues"
+  },
+  "homepage": "https://github.com/tentify/tentify",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "chalk": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.0"
+  }
+}
